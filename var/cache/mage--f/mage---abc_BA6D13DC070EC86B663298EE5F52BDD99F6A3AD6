@@ -1,0 +1,41 @@
+<div class="footer-container">
+    <div class="footer">
+        
+        <div class="footer-links">
+        
+    
+        <div class="payment">
+        <img src="http://localhost/magento/skin/frontend/default/hellowired/images/creditcards.gif" alt="We Accept all Major Credit Cards" />
+        </div>
+            
+        
+            <p>&nbsp;</p>
+<ul>
+<li><a title="Shipping" href="shipping" target="_blank">About Us</a></li>
+<li><a href="http://localhost/magento/customer-service?___SID=U">Customer Service</a></li>
+<li class="last privacy"><a href="http://localhost/magento/privacy-policy-cookie-restriction-mode?___SID=U">Privacy Policy <br /></a></li>
+<li class="last privacy"><a title="Shipping" href="shipping" target="_blank">Shipping</a></li>
+</ul>            <ul class="links">
+                        <li class="first" ><a href="http://localhost/magento/catalog/seo_sitemap/category/?___SID=U" title="Site Map" >Site Map</a></li>
+                                <li ><a href="http://localhost/magento/catalogsearch/term/popular/?___SID=U" title="Search Terms" >Search Terms</a></li>
+                                <li ><a href="http://localhost/magento/catalogsearch/advanced/?___SID=U" title="Advanced Search" >Advanced Search</a></li>
+                                <li class=" last" ><a href="http://localhost/magento/contacts/?___SID=U" title="Contact Us" >Contact Us</a></li>
+            </ul>
+                        <!--  -->
+        </div>
+       
+    </div>
+ 
+           
+</div>
+ <div class="copyright">
+        <div class="f-left">
+            <address>
+                        &copy2012 i-wannapart. All Rights Reserved.</address></div>
+            <div class="f-right">
+            Powered by <a href="http://coravity.com">Coravity Infotech</a>
+          <!--  <a href="http://www.coravity.com/" title="Magento Templates">Powered </a> by <a href="http://www.hellothemes.com/" title="Magento Themes"><img src="http://localhost/magento/skin/frontend/default/hellowired/images/media/hellothemes.png" alt="Magento Themes" /></a> -->
+            </div>
+            <div style="clear:both;"></div>
+            </div>
+  

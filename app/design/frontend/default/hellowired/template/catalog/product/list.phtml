@@ -1,0 +1,242 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_modern
+ * @copyright   Copyright (c) 2009 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Product list template
+ *
+ * @see Mage_Catalog_Block_Product_List
+ */
+?>
+<?php $_productCollection=$this->getLoadedProductCollection(); ?>
+<?php if(!$_productCollection->count()): ?>
+<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php else: ?>
+<div class="category-products">
+    <?php //echo $this->getToolbarHtml() ?>
+    <?php // List mode ?>
+    <?php if($this->getMode()!='grid'): ?>
+    <?php $_iterator = 0; ?>
+    <ol class="products-list" id="products-list">
+    <?php foreach ($_productCollection as $_product): ?>
+        <li class="item<?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
+            <?php // Product Image ?>
+            <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(170); ?>" width="170" height="170" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+            <?php // Product description ?>
+            <div class="product-shop">
+                <div class="f-fix">
+                    <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName())?></a></h2>
+                    <h2 class="product-name">  <?php echo $this->htmlEscape($_product->getSku()) ?> </h2>
+                    <?php if($_product->getRatingSummary()): ?>
+                    <?php echo $this->getReviewsSummaryHtml($_product) ?>
+                    <?php endif; ?>
+                    <?php echo $this->getPriceHtml($_product, true) ?>
+                    <?php if($_product->isSaleable()): ?>
+                      <button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                    <?php else: ?>
+                        <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                    <?php endif; ?>
+                    <div class="desc std">
+                        <?php echo nl2br($this->htmlEscape($_product->getShortDescription())) ?>
+                        <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="link-more"><?php echo $this->__('Learn More') ?></a>
+                    </div>
+                   <!-- class="add-to-links">
+                        <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                            <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                        <?php endif; ?>
+                        <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+                            <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+                        <?php endif; ?>
+                    </ul> -->
+                </div>
+            </div>
+        </li>
+    <?php endforeach; ?>
+    </ol>
+    <script type="text/javascript">decorateList('products-list', 'none-recursive')</script>
+
+    <?php else: ?>
+
+    <?php // Grid Mode ?>
+    
+            <?php 
+            $arr=array();
+           // $time = time();
+            foreach($_productCollection as $_product){
+                $arr[]=$_product->getAttributeSetId();  
+            }
+            foreach($arr as  $k => $v){
+                if(isset($attribs_temp[$v])){
+                    $attribs_temp[$v]++;
+                }else{
+                    $attribs_temp[$v] = 1;
+                }
+            }
+           // print_r($attribs_temp);
+                ?>
+    <?php $_collectionSize = $_productCollection->count() ?>
+    <?php $_columnCount =4 ;//$this->getColumnCount();
+ //   echo $_columnCount ; ?>
+      
+    <?php
+    ksort($attribs_temp);
+    foreach($attribs_temp as $k=>$v):
+   
+    $attributeSetName = Mage::getModel('eav/entity_attribute_set')->load($k)->getAttributeSetName();
+    
+    echo "<div id='bifercation'><h1 >".$attributeSetName."</h1></div>";
+   // echo $k;
+    ?>
+    <?php $i=0; foreach ($_productCollection as $_product): ?>
+    <?php
+             if($_product->getAttributeSetId() == $k){ 
+      //           echo $k;
+                 $attributeSetName = Mage::getModel('eav/entity_attribute_set')->load($_product->getAttributeSetId())->getAttributeSetName();
+          ?> 
+        <?php if ($i++%$_columnCount==0): ?>
+        
+        <ul class="products-grid">
+        <?php endif ?>
+            <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(170); ?>" width="170" height="170" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+                <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h2>
+                  <h2 class="product-name"><?php echo $this->__('SKU')?>:<?php echo $this->htmlEscape($_product->getSku()) ?></h2> 
+                  <h2 class="product-name"><?php echo $this->__('Product Type')?>:<?php 
+                  echo $attributeSetName; ?></h2> 
+                   <?php  ?>
+                 <!-- <h2 class="product-name"><?php echo $_product->getMyAttribute() ?></h2> -->
+                <?php if($_product->getRatingSummary()): ?>
+                <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+                <?php endif; ?>
+                <?php echo $this->getPriceHtml($_product, true) ?>
+                <div class="actions">
+                    <?php if($_product->isSaleable()): ?>
+                        <button type="button" id="<?php echo $_product->getId(); ?>" title="<?php echo $this->__('Add to Cart'); ?>" class="button btn-cart"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                    <?php else: ?>
+                        <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                    <?php endif; ?>
+                   <!-- class="add-to-links">
+                        <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                            <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                        <?php endif; ?>
+                        <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+                            <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+                        <?php endif; ?>
+                    </ul>-->
+                </div>
+            </li>
+        <?php if ($i%$_columnCount==0 || $i==$v): ?>
+        </ul>
+        <?php endif ?>
+        <?php } ?>
+        <?php endforeach ?>
+        
+        <?php endforeach ?>
+        <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+    <?php endif; ?>
+
+    <div class="toolbar-bottom">
+        <?php //echo $this->getToolbarHtml() ?>
+    </div>
+</div>
+<?php endif; ?>
+
+<div class="mg-ajaxcart-dialog">
+        <div class="product-info">
+            <img />
+            <span class="msg">You have added  <span class="name"></span> into shopping cart. </span>
+        </div>
+        <div class="button-set">
+            <a href="#" class="continue-shop"><span>Continue Shopping</span></a>
+            <a href="#" class="goto-cart"><span>Go To Shopping Cart</span></a>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+<script type="text/javascript">
+    var clicked_button_id = '';
+    (function ($) {
+        var constants = {
+            form_key: '<?php echo Mage::helper('ajaxcart')->get_form_key(); ?>',
+            //form_selector: '#product_addtocart_form',
+            but_id: $(this).attr('id'),
+            url: {
+                add: '<?php echo Mage::helper('ajaxcart')->get_add_url(); ?>',
+                info: '<?php echo Mage::helper('ajaxcart')->get_info_url(); ?>',
+                cart: '<?php echo Mage::helper('ajaxcart')->get_cart_url(); ?>'
+            }
+        };
+
+        var methods = {
+            add: function(bid) {
+                //alert('id='+clicked_button_id+'&qty=1');
+                $.fn.mg.ajax(
+                    constants.url.add, 'product='+clicked_button_id+'&related_product=&qty=1',
+                    function(response) {
+                        response = $.parseJSON(response);
+                        if (response.success) {
+                            methods.info.apply(this);
+                        } else {
+                            alert(response.message);
+                        }
+                    }
+                );
+            },
+            info: function() {
+                $.fn.mg.ajax(
+                    constants.url.info,
+                    null, 
+                    function(response) {
+                        methods.update.call(this, $.parseJSON(response).data);
+                    }
+                );
+            },
+            update: function(data) {
+                $('.top-link-cart').html(data.toplink);
+                $('.block-cart').replaceWith(data.sidebar);
+                $('.mg-ajaxcart-dialog .product-info .msg .name').html(data.name);
+                $('.mg-ajaxcart-dialog .product-info img').attr('src', data.thumbnail);
+                $.fancybox($('.mg-ajaxcart-dialog'));
+            }
+        };
+
+        $.fn.ajaxcart = function() {
+            $(this).click(function() {
+                clicked_button_id = $(this).attr('id');
+                methods.add.apply(this);
+
+            });
+            $('.continue-shop').click(function() { $.fancybox.close(); return false; });
+            $('.goto-cart').click(function() { window.location = constants.url.cart; return false; });
+        }; 
+    })(jQuery);
+
+    (function($) {
+        $('.btn-cart').ajaxcart();
+    })(jQuery);
+</script>
+
+
+

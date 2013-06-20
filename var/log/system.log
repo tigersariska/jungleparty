@@ -1,0 +1,574 @@
+2013-04-02T06:08:15+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:08:16+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:11:21+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:11:21+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:12:06+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:12:06+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:12:32+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:13:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T06:13:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T07:41:13+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T07:41:13+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T07:44:55+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T07:44:56+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 71: parser error : Opening and ending tag mismatch: block line 67 and reference  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/reference&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 76: parser error : Opening and ending tag mismatch: reference line 65 and default  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/default&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string():               ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 428: parser error : Opening and ending tag mismatch: default line 46 and layout  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 429: parser error : Premature end of data in tag layout line 40  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:52:27+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 71: parser error : Opening and ending tag mismatch: block line 67 and reference  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/reference&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 76: parser error : Opening and ending tag mismatch: reference line 65 and default  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/default&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string():               ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 428: parser error : Opening and ending tag mismatch: default line 46 and layout  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 429: parser error : Premature end of data in tag layout line 40  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:53:28+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 71: parser error : Opening and ending tag mismatch: block line 67 and reference  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/reference&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 76: parser error : Opening and ending tag mismatch: reference line 65 and default  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/default&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string():               ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 428: parser error : Opening and ending tag mismatch: default line 46 and layout  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 429: parser error : Premature end of data in tag layout line 40  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-02T08:54:16+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 444
+2013-04-03T05:55:08+00:00 CRIT (2): Not valid template file:frontend\base\default\template\catalog/category/list.phtml
+2013-04-03T06:21:15+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:21:15+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T06:23:03+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:23:03+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T06:28:25+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:28:25+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T06:28:33+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:28:33+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T06:29:42+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:29:42+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T06:42:15+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:42:15+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T06:43:59+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T06:43:59+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T07:04:55+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T07:04:55+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T07:15:13+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T07:15:13+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T07:16:11+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T07:16:11+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T07:17:56+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 172
+2013-04-03T07:17:56+00:00 ERR (3): Notice: Undefined variable: block  in C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Filter.php on line 182
+2013-04-03T10:19:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-03T10:19:42+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-03T10:55:31+00:00 ERR (3): Warning: getimagesize(http://localhost/magento/skin/adminhtml/base/default/images/media/about_us_img.jpg): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+  in C:\xampp\htdocs\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
+2013-04-04T07:37:08+00:00 ERR (3): Warning: getimagesize(http://localhost/magento/media/helloslide/01.jpg): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+  in C:\xampp\htdocs\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
+2013-04-04T07:37:08+00:00 ERR (3): Warning: getimagesize(http://localhost/magento/media/helloslide/02.jpg): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+  in C:\xampp\htdocs\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
+2013-04-04T07:38:52+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:52+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:53+00:00 ERR (3): Warning: getimagesize(http://localhost/magento/media/helloslide/2.jpg): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+  in C:\xampp\htdocs\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
+2013-04-04T07:38:53+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:53+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:53+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:55+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:38:55+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T07:40:34+00:00 ERR (3): Warning: getimagesize(http://localhost/magento/media/helloslide/2.jpg): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+  in C:\xampp\htdocs\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
+2013-04-04T09:16:16+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:766
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:83
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:188
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] C:\xampp\htdocs\magento\app\Mage.php:683
+[6] C:\xampp\htdocs\magento\index.php:87
+</pre>
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 22: parser error : Opening and ending tag mismatch: meta line 21 and head  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/head&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 25: parser error : Opening and ending tag mismatch: meta line 20 and html  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/html&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 25: parser error : Premature end of data in tag meta line 19  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/html&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 25: parser error : Premature end of data in tag head line 17  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/html&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 25: parser error : Premature end of data in tag html line 1  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/html&gt;  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-04T12:08:33+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2013-04-05T06:01:13+00:00 ERR (3): Warning: include(Mage\ImportExport\Model\Import\Adapter\Xlsx.php): failed to open stream: No such file or directory  in C:\xampp\htdocs\magento\lib\Varien\Autoload.php on line 93
+2013-04-05T06:01:13+00:00 ERR (3): Warning: include(): Failed opening 'Mage\ImportExport\Model\Import\Adapter\Xlsx.php' for inclusion (include_path='C:\xampp\htdocs\magento\app\code\local;C:\xampp\htdocs\magento\app\code\community;C:\xampp\htdocs\magento\app\code\core;C:\xampp\htdocs\magento\lib;.;C:\xampp\php\PEAR')  in C:\xampp\htdocs\magento\lib\Varien\Autoload.php on line 93
+2013-04-05T06:01:52+00:00 ERR (3): Warning: include(Mage\ImportExport\Model\Import\Adapter\Xls.php): failed to open stream: No such file or directory  in C:\xampp\htdocs\magento\lib\Varien\Autoload.php on line 93
+2013-04-05T06:01:52+00:00 ERR (3): Warning: include(): Failed opening 'Mage\ImportExport\Model\Import\Adapter\Xls.php' for inclusion (include_path='C:\xampp\htdocs\magento\app\code\local;C:\xampp\htdocs\magento\app\code\community;C:\xampp\htdocs\magento\app\code\core;C:\xampp\htdocs\magento\lib;.;C:\xampp\php\PEAR')  in C:\xampp\htdocs\magento\lib\Varien\Autoload.php on line 93
+2013-04-05T11:45:47+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:49+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:50+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:51+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:52+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:53+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:53+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:45:53+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T11:51:38+00:00 ERR (3): Warning: include(Mage\ImportExport\Model\Import\Adapter\Xls.php): failed to open stream: No such file or directory  in C:\xampp\htdocs\magento\lib\Varien\Autoload.php on line 93
+2013-04-05T11:51:38+00:00 ERR (3): Warning: include(): Failed opening 'Mage\ImportExport\Model\Import\Adapter\Xls.php' for inclusion (include_path='C:\xampp\htdocs\magento\app\code\local;C:\xampp\htdocs\magento\app\code\community;C:\xampp\htdocs\magento\app\code\core;C:\xampp\htdocs\magento\lib;.;C:\xampp\php\PEAR')  in C:\xampp\htdocs\magento\lib\Varien\Autoload.php on line 93
+2013-04-05T12:03:35+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:36+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:03:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:05+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:06+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:07+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:08+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:09+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:10+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-05T12:07:10+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:37+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:38+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:39+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T05:55:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:40+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:41+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:42+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:43+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:44+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:45+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:45+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:45+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:45+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:45+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:02:45+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:21+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:21+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:22+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:23+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:24+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:25+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:26+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:26+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:26+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:26+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:26+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399
+2013-04-06T06:24:26+00:00 ERR (3): User Error: DDL statements are not allowed in transactions  in C:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 399

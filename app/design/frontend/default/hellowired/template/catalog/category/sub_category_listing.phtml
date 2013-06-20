@@ -1,0 +1,29 @@
+ <?php
+//get all sub categories for current category
+$_category          = $this->getCurrentCategory();
+$_category_children    = $_category->getChildren();
+$catIds                 = explode(',',$_category_children);
+
+$categories = array();
+
+foreach($catIds as $catId) {
+    $category = Mage::getModel('catalog/category')->load($catId); 
+    
+    $categories[$category->getName()] = array(
+        'url' => $category->getUrl(),
+        'img' => $category->getImageUrl()
+    );
+}
+?>
+<div style="width:690px;padding:3px;overflow:auto">
+    <?php if($category->getIsActive()): ?>
+        <?php foreach($categories as $name => $data): ?>
+            <div class="id_id">
+                <a href="<?php echo $data['url']; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>">
+                    <img class="main_cat_img" src="<?php echo $data['img']; ?>" />
+                    <div class="category-title1"><?php echo $name; ?></div>
+                </a>
+            </div>   
+        <?php endforeach; ?>
+    <?php endif; ?>
+</div> 

@@ -1,0 +1,27 @@
+ <?php foreach ($this->getStoreCategories() as $_category): ?>
+<?php $open = $this->isCategoryActive($_category); ?>
+<?php
+$cur_category=Mage::getModel('catalog/category')->load($_category->getId());
+$layer = Mage::getSingleton('catalog/layer');
+$layer->setCurrentCategory($cur_category);
+if ($immagine = $this->getCurrentCategory()->getImageUrl()):
+?>     
+
+<div style="float: left; width: 33%; padding:3px 3px 3px 0; text-align: center; ">
+                <div class="linkimage">
+                 <div class="home_product_div">
+                    <a href="<?php echo $this->getCategoryUrl($_category)?>">
+                    <?php echo $_category->getName()?>
+                    </a>
+                    </div>
+                   <div class="home_product_div_image">
+                    <a href="<?php echo $this->getCategoryUrl($_category)?>">
+                    <img src="<?php echo $immagine ?>" alt="<?php echo $this->htmlEscape($this->getCurrentCategory()->getName()) ?>" />
+                    </a>
+                    </div>
+                   
+                </div>
+</div>
+
+<?php endif; ?>
+<?php endforeach; ?> 

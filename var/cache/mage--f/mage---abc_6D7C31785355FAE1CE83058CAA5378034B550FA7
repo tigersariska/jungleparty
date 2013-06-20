@@ -1,0 +1,27 @@
+            <div class="nav-container">
+    <ul id="nav">
+
+
+                 <li class="home "><a href="http://localhost/magento/?___SID=U"><span>Home</span></a></li> 
+    
+        <li class="level0 nav-1 active parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/magento/1st-birthday.html?___SID=U">
+<span>1st Birthday</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-1-1 active first last">
+<a href="http://localhost/magento/1st-birthday/sweet-at-1-girls-s-birthday.html?___SID=U">
+<span>Sweet at 1 Girls's Birthday</span>
+</a>
+</li>
+</ul>
+</li><li class="level0 nav-2">
+<a href="http://localhost/magento/general-birthday.html?___SID=U">
+<span>General Birthday</span>
+</a>
+</li><li class="level0 nav-3">
+<a href="http://localhost/magento/girls-birthday.html?___SID=U">
+<span>Girls Birthday</span>
+</a>
+</li>    </ul>
+</div>

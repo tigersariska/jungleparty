@@ -1,0 +1,217 @@
+<style type="text/css">
+.orderStatusTable {
+	border:1px solid #CCCCCC;
+	font-size:11px;
+}
+.orderStatusTable td {
+padding:8px;
+}
+.currentStatus {
+	font-size: 11px;
+	background-color: #eee;
+	padding: 10px;
+	margin: 0 0 15px 0;
+	line-height: 15px;
+	border: 1px solid #ccc;
+	color: #333;
+}
+.currentStatus span {
+	font-size: 14px;
+	line-height: 23px;
+	color: #000;
+}
+</style>
+<div style="padding:18px;">
+<div class="page-head">
+	<h3>Check My Order Status</h3>
+</div>
+
+<p>Please enter your order number and email address to see the status of your order.</p>
+
+<form name="" action="<?php echo $this->getUrl('order-status'); ?>" method="get">
+<table border="0" cellspacing="0" cellpadding="0" class="orderStatusTable">
+	<tr>
+		<td><strong>Order Number:</strong></td>
+		<td><input type="text" name="order_id" id="order_id" value="<?php echo (isset($_GET['order_id'])) ? $_GET['order_id'] : ''; ?>" /></td>
+	</tr>
+	<tr>
+		<td><strong>Email Address:</strong></td>
+		<td><input name="email_address" type="text" id="email_address" value="<?php echo (isset($_GET['email_address'])) ? $_GET['email_address'] : ''; ?>" size="30" /></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><input type="submit" name="submit" value="Submit" /></td>
+	</tr>
+</table>
+
+</form>
+
+<div class="divider"></div>
+<p>
+	Here is the process how your orders will go through.<br />
+	<img src="<?php echo $this->getSkinUrl('images/shipping-process.png'); ?>" alt="Shipping Info" />
+</p>
+<div class="divider"></div>
+<?php
+
+	$live = false; //determines verbosity of errors
+
+	$error = '';
+	$statusMessage = '';
+	$trackingNumberMessage = '';
+	$shippingMessage = '';
+
+	$orderID = '';
+	$emailAddress = '';
+
+	if(isset($_GET['order_id'])) {
+
+		$orderID = trim(preg_replace('/[^0-9]*/', '', $_GET['order_id']));
+		$emailAddress = trim($_GET['email_address']);
+
+		try {
+
+			ini_set("soap.wsdl_cache", "0");
+			ini_set("soap.wsdl_cache_enabled", "0");
+
+			//******************************************************************/
+			$apiUrl 		= 'http://www.i-wannaparty.com/index.php/api/?wsdl'; #Edit
+			$apiUser 		= 'manish'; #Edit
+			$apiKey		 	= 'manish'; #Edit
+			/*$apiUrl 		= 'http://127.0.0.1/magento1610/index.php/api/?wsdl';
+			$apiUser 		= 'orderstatus';
+			$apiKey		 	= 'orderstatus';*/
+			// change to match your domain name
+			$proxy = new SoapClient($apiUrl);
+
+			//change to your API username/password
+			$sessionId = $proxy->login($apiUser, $apiKey);
+
+			//******************************************************************/
+
+			//find all orders related to this id
+			$orderById = $proxy->call($sessionId, 'sales_order.info', $orderID);
+			#print_r($orderById);
+
+			$items = $orderById['items'];
+			$paymentEmail = @$orderById['payment']['additional_information']['paypal_payer_email'];
+			/*var_dump($paymentEmail);
+			var_dump($orderById['customer_email']);
+			var_dump($emailAddress);*/
+			if(in_array($emailAddress, array($paymentEmail, $orderById['customer_email']))) {
+				//we are setting this variable for use later
+				$orderLookup = "success";
+				if (strtolower($orderById['status']) == "holded") {
+					$orderById['status'] = "On Hold";
+				}
+				$statusMessage = '<span>Your order status is: <strong>'.ucwords(str_replace('_', ' ', $orderById['status'])).'</strong></span>';
+
+				if(ucwords(str_replace('_', ' ', $orderById['status'])) == "Processing"){
+					$statusMessage .= '<br/><br/><strong>What does this mean?</strong><br/>Processing Time is the time it takes from when you submit your order to when the product leaves the Distribution Center.';
+				}
+
+
+			} else {
+				$orderLookup = "failure";
+				echo "We were unable to find your order information. Please verify your Order Number and Email Address are correct.";
+			}
+
+			//if the order status is complete we look up shipping information
+			if(strtolower($orderById['status']) == "complete" && $orderLookup == "success") {
+
+
+				//we look for all shipments related to this order id using internal magento order id
+				$findShipments = $proxy->call($sessionId, 'sales_order_shipment.list', array(array('order_id'=>array('like'=>$orderById['order_id']))));
+
+				if (count($findShipments) < 1) { //if $findShipments is not an array
+
+					echo "There was an unknown error and your shipment information could not be found. Please contact Customer Service to get the current status of your order.";
+
+				} else {
+
+					//we pull the increment id for the shipment
+					$thisShipmentID = $findShipments[0]['increment_id'];
+
+					//now we pull all shipment info that specific shipment id
+					$getShipmentInfo = $proxy->call($sessionId, 'sales_order_shipment.info', $thisShipmentID);
+					$allowedCarriers = $proxy->call($sessionId, 'sales_order_shipment.getCarriers', $orderById['increment_id']);#Edited
+
+					//set each variable
+					$shipDate = $getShipmentInfo['created_at'];
+					$service = $allowedCarriers[$getShipmentInfo['tracks'][0]['carrier_code']];
+					if($service == "Custom Value") $service = "Truck Freight";
+					$trackingNumber = $getShipmentInfo['tracks'][0]['number'];
+
+					$defaultTimeZone = date_default_timezone_get();
+
+					date_default_timezone_set('EST');
+
+					//print_r($getShipmentInfo);
+
+					if($service == "ups") {
+						$trackingNumberMessage = "Tracking Number: <strong><a href='http://wwwapps.ups.com/WebTracking/track?loc=en_US&trackNums=".$trackingNumber."' target='_blank'>".$trackingNumber."</a></strong>";
+					} else {
+						$trackingNumberMessage = "Tracking Number: <strong>".$trackingNumber."</strong>";
+					}
+
+					//custom link depending on the customer's country
+					$countryId = $orderById['shipping_address']['country_id'];
+					$trackingNumberMessage .= "<br />Tracking Link: ";
+					if($countryId == 'US'){ //US
+						$trackingNumberMessage .= '<a href="http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum='.$trackingNumber.'" title="" target="_blank">http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum='.$trackingNumber.'</a><br />';
+					}elseif($countryId == 'GB'){ //UK
+						$trackingNumberMessage .= '<a href="http://www.parcelforce.com/track-trace?trackNumber='.$trackingNumber.'" title="" target="_blank">http://www.parcelforce.com/track-trace?trackNumber='.$trackingNumber.'</a><br />';
+					}elseif($countryId == 'AU'){ //AU
+						$trackingNumberMessage .= '<a href="http://auspost.com.au" title="" target="_blank">http://auspost.com.au</a><br />';
+					}elseif($countryId == 'CA'){ //CA
+						$trackingNumberMessage .= '<a href="http://www.canadapost.ca" title="" target="_blank">http://www.canadapost.ca</a><br />';
+					}else{ //rest
+						$trackingNumberMessage .= '<a href="http://www.track-trace.com/post" title="" target="_blank">http://www.track-trace.com/post</a><br />';
+					}
+
+					//and echo the data to screen
+					$shippingMessage = "Your order was shipped on " . date("l, F jS, Y \\a\\t g:i:s a T", strtotime($shipDate . ' ' . $defaultTimeZone)) . " via " . $service . ".<br/><br/>";
+
+					//custom link depending on the customer's country
+
+				} //no errors
+
+			}
+
+
+			if($orderLookup != "failure"){
+
+				echo '<p class="currentStatus">'.$statusMessage.'<br/>'.$trackingNumberMessage.'</p>';
+
+				echo $shippingMessage;
+
+				echo "<h4>Products in your order:</h4><ul>";
+						foreach($items as $item){
+							echo "<li>".number_format($item['qty_invoiced'], 0) . " x <strong>" . strtoupper($item['sku']) . "</strong> " . $item['name'] . "</li>";
+						}
+				echo "</ul>";
+			}
+
+		} catch (SoapFault $fault) {
+			//this is a basic implementation of error checking. I am using try to stop the error from showing a nasty magento error page
+			if($fault->faultcode == "100") {
+				echo "That Order Number was not found in our system.";
+			} elseif ($fault->faultcode == "http") {
+				echo "Request timed out. Please try again later.";
+			} else {
+				//leave this on for testing so we can see SOAP status codes; turn off for live
+				if ($live == false) {
+					echo "Error $fault->faultcode: $fault->faultstring";
+				} else {
+					echo "There was an unknown error. Please try again later, or contact us.";
+				}
+			}
+		}
+
+
+
+	} // end if
+
+?>
+<p><br /><br /><em>For detailed information regarding the status of your order, please contact our helpful Customer Service Experts.</em></p>
+</div>

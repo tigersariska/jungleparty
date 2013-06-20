@@ -1,0 +1,17 @@
+<?php
+// Retrieve order
+$_order = new Mage_Sales_Model_Order();
+$orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$_order->loadByIncrementId($orderId);
+?>
+<form name="mygatewayform" method="post" action="/pg/pgrequest.php">
+    <input type="hidden" name="grandtotal" value="<?php echo intval($_order->getBaseGrandTotal()); ?>">
+    <input type="hidden" name="perform" value="initiatePaymentCapture#sale" >
+    <input type="hidden" name="merchant_reference_no" value="AX143565">
+    <input type="hidden" name="currency_code" value="356"/>
+    
+	<input type="hidden" name="orderid" value="<?php echo $orderId; ?>">
+</form>
+<script type="text/javascript">
+document.mygatewayform.submit();
+</script>
